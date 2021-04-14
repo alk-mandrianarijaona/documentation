@@ -4520,17 +4520,6 @@ api:
       operationids:
         - GetAPITestLatestResults
       unstable: []
-  - name: Edit a test
-    url: '#edit-a-test'
-    identifier: edit-a-test
-    parent: synthetics
-    generated: true
-    params:
-      versions:
-        - v1
-      operationids:
-        - UpdateTest
-      unstable: []
   - name: Get a test configuration (API)
     url: '#get-a-test-configuration-api'
     identifier: get-a-test-configuration-api
@@ -4651,17 +4640,6 @@ api:
         - v1
       operationids:
         - CreateSyntheticsAPITest
-      unstable: []
-  - name: Create a test
-    url: '#create-a-test'
-    identifier: create-a-test
-    parent: synthetics
-    generated: true
-    params:
-      versions:
-        - v1
-      operationids:
-        - CreateTest
       unstable: []
   - name: Get the list of all tests
     url: '#get-the-list-of-all-tests'
